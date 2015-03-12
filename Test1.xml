@@ -1,1 +1,79 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_left" id="130" x="-103" y="-176"></block>
+  <block type="movement_leftmotor" id="92" inline="true" x="-206" y="-15"></block>
+  <block type="controls_repeat" id="18" inline="true" x="261" y="6">
+    <value name="TIMES">
+      <block type="math_number" id="33">
+        <field name="NUM">280</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="10"></block>
+    </statement>
+    <next>
+      <block type="controls_repeat" id="50" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="57">
+            <field name="NUM">3</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_right" id="43"></block>
+        </statement>
+        <next>
+          <block type="controls_repeat" id="74" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="81">
+                <field name="NUM">120</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="movement_forward" id="67"></block>
+            </statement>
+            <next>
+              <block type="controls_repeat" id="222" inline="true">
+                <value name="TIMES">
+                  <block type="math_number" id="264">
+                    <field name="NUM">1.5</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block type="movement_left" id="215"></block>
+                </statement>
+                <next>
+                  <block type="controls_repeat" id="296" inline="true">
+                    <value name="TIMES">
+                      <block type="math_number" id="303">
+                        <field name="NUM">120</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="movement_forward" id="274"></block>
+                    </statement>
+                    <next>
+                      <block type="controls_repeat" id="306" inline="true">
+                        <value name="TIMES">
+                          <block type="math_number" id="307">
+                            <field name="NUM">1.5</field>
+                          </block>
+                        </value>
+                        <statement name="DO">
+                          <block type="movement_left" id="308"></block>
+                        </statement>
+                        <next>
+                          <block type="comment_comment" id="305">
+                            <field name="TEXT">May I have a candy please?</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
