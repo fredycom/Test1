@@ -1,67 +1,67 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_left" id="130" x="-103" y="-176"></block>
-  <block type="movement_leftmotor" id="92" inline="true" x="-206" y="-15"></block>
-  <block type="controls_repeat" id="18" inline="true" x="261" y="6">
+  <block type="movement_left" id="1" x="-103" y="-176"></block>
+  <block type="movement_leftmotor" id="2" inline="true" x="-206" y="-15"></block>
+  <block type="controls_repeat" id="3" inline="true" x="261" y="6">
     <value name="TIMES">
-      <block type="math_number" id="33">
+      <block type="math_number" id="4">
         <field name="NUM">280</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="10"></block>
+      <block type="movement_forward" id="5"></block>
     </statement>
     <next>
-      <block type="controls_repeat" id="50" inline="true">
+      <block type="controls_repeat" id="6" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="57">
+          <block type="math_number" id="7">
             <field name="NUM">3</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_right" id="43"></block>
+          <block type="movement_right" id="8"></block>
         </statement>
         <next>
-          <block type="controls_repeat" id="74" inline="true">
+          <block type="controls_repeat" id="9" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="81">
+              <block type="math_number" id="10">
                 <field name="NUM">120</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="67"></block>
+              <block type="movement_forward" id="11"></block>
             </statement>
             <next>
-              <block type="controls_repeat" id="222" inline="true">
+              <block type="controls_repeat" id="12" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="264">
+                  <block type="math_number" id="13">
                     <field name="NUM">1.5</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_left" id="215"></block>
+                  <block type="movement_left" id="14"></block>
                 </statement>
                 <next>
-                  <block type="controls_repeat" id="296" inline="true">
+                  <block type="controls_repeat" id="15" inline="true">
                     <value name="TIMES">
-                      <block type="math_number" id="303">
+                      <block type="math_number" id="16">
                         <field name="NUM">120</field>
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="274"></block>
+                      <block type="movement_forward" id="17"></block>
                     </statement>
                     <next>
-                      <block type="controls_repeat" id="306" inline="true">
+                      <block type="controls_repeat" id="18" inline="true">
                         <value name="TIMES">
-                          <block type="math_number" id="307">
+                          <block type="math_number" id="19">
                             <field name="NUM">1.5</field>
                           </block>
                         </value>
                         <statement name="DO">
-                          <block type="movement_left" id="308"></block>
+                          <block type="movement_left" id="20"></block>
                         </statement>
                         <next>
-                          <block type="comment_comment" id="305">
+                          <block type="comment_comment" id="21">
                             <field name="TEXT">May I have a candy please?</field>
                           </block>
                         </next>
